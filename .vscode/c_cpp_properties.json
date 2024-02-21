@@ -1,0 +1,43 @@
+//
+// !!! WARNING !!! AUTO-GENERATED FILE!
+// PLEASE DO NOT MODIFY IT AND USE "platformio.ini":
+// https://docs.platformio.org/page/projectconf/section_env_build.html#build-flags
+//
+{
+    "configurations": [
+        {
+            "name": "PlatformIO",
+            "includePath": [
+                "/Users/afred/Documents/PlatformIO/Projects/Stm32_F103c8t6/include",
+                "/Users/afred/Documents/PlatformIO/Projects/Stm32_F103c8t6/src",
+                "/Users/afred/.platformio/packages/framework-libopencm3",
+                "/Users/afred/.platformio/packages/framework-libopencm3/include",
+                ""
+            ],
+            "browse": {
+                "limitSymbolsToIncludedHeaders": true,
+                "path": [
+                    "/Users/afred/Documents/PlatformIO/Projects/Stm32_F103c8t6/include",
+                    "/Users/afred/Documents/PlatformIO/Projects/Stm32_F103c8t6/src",
+                    "/Users/afred/.platformio/packages/framework-libopencm3",
+                    "/Users/afred/.platformio/packages/framework-libopencm3/include",
+                    ""
+                ]
+            },
+            "defines": [
+                "PLATFORMIO=60113",
+                "STM32F103xB",
+                "STM32F1",
+                "F_CPU=72000000L",
+                ""
+            ],
+            "compilerPath": "/Users/afred/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/arm-none-eabi-gcc",
+            "compilerArgs": [
+                "-mthumb",
+                "-mcpu=cortex-m3",
+                ""
+            ]
+        }
+    ],
+    "version": 4
+}
